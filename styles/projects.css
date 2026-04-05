@@ -97,7 +97,6 @@ header {
   color: #004d00; 
 }
 
-/* Responsive tweaks */
 @media (max-width: 900px) {
   .project-card {
     flex: 0 1 300px;

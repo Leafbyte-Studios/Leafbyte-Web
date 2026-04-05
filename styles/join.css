@@ -1,0 +1,138 @@
+:root {
+    --Dark-Orange: #fc5a16ff;
+    --Light-Orange: #fd8d25ff;
+    --Dark-Green: #3f7e29ff;
+    --Light-Green: #83c93bff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Dark-Orange);
+}
+
+.header-logo {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.header-top {
+    border: none;
+    border-bottom: 3px solid var(--Dark-Orange);
+}
+
+header {
+    padding-top: 10px;
+    background-color: var(--Light-Orange);
+}
+
+.button-grid {
+    display: flex;
+}
+
+.button-grid button {
+    font-family: Lexend;
+    font-weight: 900;
+
+    flex: 1;
+    height: 50px;
+
+    color: var(--Dark-Green);
+    background-color: var(--Light-Green);
+
+    border: none;
+    border-bottom: 3px solid var(--Dark-Green);
+}
+
+.button-grid button:hover {
+    color: var(--Light-Green);
+    background-color: var(--Dark-Green);
+
+    border: none;
+    border-bottom: 3px solid var(--Light-Green);
+
+    cursor: pointer;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    
+    margin: 20px 30px;
+    padding: 10px;
+
+    text-align: center;
+
+    color: var(--Dark-Green);
+    background-color: var(--Light-Green);
+
+    border: 3px solid var(--Dark-Green);
+
+    border-radius: 25px;
+
+    max-width: 1080px;
+
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  box-shadow: 0 5px 2px var(--Dark-Green);
+}
+
+form {
+  display: flex;
+  flex-direction: column;  /* Keep each element on its own line */
+  align-items: center;     /* Center elements horizontally */
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;     
+}
+
+input, textarea {
+  text-align: left;   
+}
+
+input, textarea, .button-form {
+  display: block;
+
+  width: 75%;            
+  margin-bottom: 15px;
+  padding: 10px;
+
+  box-sizing: border-box;
+
+  border-radius: 4px;
+  border: 3px solid var(--Dark-Orange);
+  background-color: var(--Light-Orange);
+}
+
+.button-form {
+  font-family: Lexend;
+  font-weight: 700;
+  background-color: var(--Light-Orange);
+  color: var(--Dark-Orange);
+  border: none;
+  cursor: pointer;
+}
+
+.button-form:hover {
+    background-color: var(--Dark-Orange);
+  color: var(--Light-Orange);
+}
