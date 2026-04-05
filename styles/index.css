@@ -6,6 +6,8 @@
 }
 
 body {
+    font-family: Lexend;
+
     margin: 0;
     padding: 0;
     background-color: var(--Dark-Orange);
@@ -52,4 +54,42 @@ header {
     border-bottom: 3px solid var(--Light-Green);
 
     cursor: pointer;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    
+    margin: 20px 30px;
+    padding: 10px;
+
+    text-align: center;
+
+    color: var(--Dark-Green);
+    background-color: var(--Light-Green);
+
+    border: 3px solid var(--Dark-Green);
+
+    border-radius: 25px;
+
+    max-width: 1080px;
+
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  box-shadow: 0 5px 2px var(--Dark-Green);
+}
+
+.container hr {
+    border: none;
+    border-bottom: 3px solid var(--Dark-Green);
 }
