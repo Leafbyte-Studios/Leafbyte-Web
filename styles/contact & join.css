@@ -43,3 +43,13 @@ header {
     border: none;
     border-bottom: 3px solid var(--Dark-Green);
 }
+
+.button-grid button:hover {
+    color: var(--Light-Green);
+    background-color: var(--Dark-Green);
+
+    border: none;
+    border-bottom: 3px solid var(--Light-Green);
+
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+:root {
+    --Dark-Orange: #fc5a16ff;
+    --Light-Orange: #fd8d25ff;
+    --Dark-Green: #3f7e29ff;
+    --Light-Green: #83c93bff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Dark-Orange);
+}
+
+.header-logo {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.header-top {
+    border: none;
+    border-bottom: 3px solid var(--Dark-Orange);
+}
+
+header {
+    padding-top: 10px;
+    background-color: var(--Light-Orange);
+}
+
+.button-grid {
+    display: flex;
+}
+
+.button-grid button {
+    font-family: Lexend;
+    font-weight: 900;
+
+    flex: 1;
+    height: 50px;
+
+    color: var(--Dark-Green);
+    background-color: var(--Light-Green);
+
+    border: none;
+    border-bottom: 3px solid var(--Dark-Green);
+}
+
+.button-grid button:hover {
+    color: var(--Light-Green);
+    background-color: var(--Dark-Green);
+
+    border: none;
+    border-bottom: 3px solid var(--Light-Green);
+
+    cursor: pointer;
+}
