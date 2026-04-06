@@ -1,0 +1,86 @@
+:root {
+    --Dark-Orange: #fc5a16ff;
+    --Light-Orange: #fd8d25ff;
+    --Dark-Green: #3f7e29ff;
+    --Light-Green: #83c93bff;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--Dark-Orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    
+    margin: 20px 30px;
+    padding: 10px;
+
+    text-align: center;
+
+    color: var(--Dark-Green);
+    background-color: var(--Light-Green);
+
+    border: 3px solid var(--Dark-Green);
+
+    border-radius: 25px;
+
+    max-width: 1080px;
+
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  box-shadow: 0 5px 2px var(--Dark-Green);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 20px 30px;
+    padding: 10px;
+
+    text-align: center;
+
+    color: var(--Dark-Orange);
+    background-color: var(--Light-Orange);
+
+    border: 3px solid var(--Dark-Orange);
+
+    border-radius: 25px;
+
+    max-width: 1080px;
+
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    color: var(--Light-Orange);
+    background-color: var(--Dark-Orange);
+
+    border: 3px solid var(--Light-Orange);
+}
+
+button:active {
+    color: var(--Dark-Orange);
+    background-color: var(--Light-Orange);
+
+    border: 3px solid var(--Dark-Orange);
+}
