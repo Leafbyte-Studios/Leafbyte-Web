@@ -23,24 +23,26 @@
     <body>
         <div class="center-div">
             <div class="container">
-                <form name="join" method="POST" data-netlify="true">
-                    <input type="hidden" name="form-name" value="join">
+                <form action="https://formspree.io/f/xpqokjey" method="POST">
 
+                    <input type="hidden" name="_next" value="https://leafbyte-studios.github.io/Leafbyte-Web/thank_you.html">
+                
                     <h2>Join the Studio</h2>
-
+                
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
-
+                
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-
-                    <label for="Discord Username (Primary)">Discord:</label>
-                    <input type="discord" id="discord" name="discord">
-
-                    <label for="portfolio">Portfolio (Perferably: Google Drive Link):</label>
-                     <input id="portfolio" name="portfolio" required>
-
+                
+                    <label for="discord">Discord Username (Primary):</label>
+                    <input type="text" id="discord" name="discord">
+                
+                    <label for="portfolio">Portfolio (Preferably: Google Drive Link):</label>
+                    <input type="text" id="portfolio" name="portfolio" required>
+                
                     <button class="button-form" type="submit">Send</button>
+                
                 </form>
             </div>
         </div>
